@@ -5,7 +5,7 @@ on:
       environment:
         description: choose the environment to deploy
         required: true
-        default: dev
+        default: test
 jobs:
   inputs-demo:
     runs-on: ubuntu-latest
