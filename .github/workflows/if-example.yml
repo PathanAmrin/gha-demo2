@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: perform code quality
-        run: 
+        run: |
         echo "performing quality checks on the code"
         exit 1
   dev-deploy:
